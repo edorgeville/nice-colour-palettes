@@ -1,0 +1,14 @@
+{
+  "name": "kuler-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "express": "^4.9.3",
+    "request": "^2.44.0",
+    "util": "^0.10.3"
+  },
+  "author": "Erwan d'Orgeville <info@erwandorgeville.com>"
+}
