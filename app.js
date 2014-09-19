@@ -35,7 +35,10 @@ function getPalettes(){
 getPalettes();
 
 app.get("/", function (req, res) {
-  res.send(palettes);
+  var json = {
+    palettes: palettes
+  };
+  res.send(json);
 });
 
 console.log("http://localhost:" + port);
